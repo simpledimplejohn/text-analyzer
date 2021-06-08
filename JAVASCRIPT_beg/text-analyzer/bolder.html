@@ -4,13 +4,13 @@
   <title>BOLDER</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/jquery-3.6.0.js"></script>
   <script src="js/bolder.js"></script>
 </head>
 <body>
   <div class="container">
       <h2><strong>BOLDER</strong></h2>
-    <form id="word-counter">
+    <form id="word-bolder">
       <div class="form-group">
         <p>Input a section of text:</p>
         <textarea id="text-passage" name="text-passage" class="form-control"></textarea>
@@ -22,7 +22,7 @@
     </form>
     <p>Bold Count: <span id="total-count"></span></p>
     <br>
-    <p>Newly <strong>bolded passage:</strong><span id="selected-count"></span></p>
+    <p>Newly <strong>bolded passage:</strong><span id="bolded-passage"></span></p>
     <span id="bolded-passage"></span>
   </div>
 </body>
